@@ -1,4 +1,4 @@
-SOLID Principles: An Introduction
+# SOLID Principles: An Introduction
 
 SOLID principles are a set of design principles that help developers create maintainable and scalable software. These principles were introduced by Robert C. Martin (also known as Uncle Bob) in the early 2000s and have since become a cornerstone of modern software development.
 
