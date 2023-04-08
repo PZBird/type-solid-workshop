@@ -1,5 +1,9 @@
 # Open-Closed Principle (OCP)
 
+The Open-Closed Principle (OCP) states that software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. This means that we should be able to add new functionality without changing existing code.
+
+By adhering to OCP, developers can create code that is more flexible and easier to maintain. It also allows for better code reuse and promotes the use of interfaces and abstraction to achieve this goal.
+
 Suppose we have an Order class that calculates the total price of an order based on a list of products and their prices:
 
 ```typescript

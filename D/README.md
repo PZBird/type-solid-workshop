@@ -1,5 +1,9 @@
 # Dependency Inversion Principle (DIP)
 
+The Dependency Inversion Principle (DIP) states that high-level modules should not depend on low-level modules. Instead, both should depend on abstractions. This means that the details of implementation should be hidden behind an interface or abstract class.
+
+By adhering to DIP, developers can create code that is more flexible and easier to test. It also promotes better separation of concerns and helps avoid tight coupling between modules.
+
 Suppose we have a `PaymentService` class that is responsible for processing payments:
 
 ```typescript

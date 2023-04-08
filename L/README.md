@@ -1,5 +1,10 @@
 # Liskov Substitution Principle (LSP)
 
+The Liskov Substitution Principle (LSP) states that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program. This means that any subclass should be able to substitute its parent class without causing errors or unexpected behavior.
+
+By following LSP, developers can create code that is more modular and easier to test. It also promotes better inheritance hierarchy and helps avoid tight coupling between classes.
+
+
 Suppose we have a `Rectangle` class that represents a rectangle with a width and a height property, and a `Square` class that extends the `Rectangle` class and represents a square with a `side` property:
 
 ```typescript

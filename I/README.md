@@ -1,5 +1,9 @@
 # Interface Segregation Principle (ISP)
 
+The Interface Segregation Principle (ISP) states that clients should not be forced to depend on interfaces they do not use. This means that interfaces should be designed in such a way that clients only need to know about the methods that are relevant to them.
+
+By following ISP, developers can create code that is more modular and easier to maintain. It also promotes better separation of concerns and helps avoid bloated interfaces that can be difficult to work with.
+
 Suppose we have an `Employee` interface that has several methods:
 
 ```typescript
