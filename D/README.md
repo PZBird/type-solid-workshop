@@ -1,4 +1,4 @@
-# Dependency Inversion Principle (DIP) ([RU](./README_RU.md))
+# Dependency Inversion Principle (DIP) ([RU](./RU/README.md))
 
 The Dependency Inversion Principle (DIP) states that high-level modules should not depend on low-level modules. Instead, both should depend on abstractions. This means that the details of implementation should be hidden behind an interface or abstract class.
 

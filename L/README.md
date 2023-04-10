@@ -1,4 +1,4 @@
-# Liskov Substitution Principle (LSP) ([RU](./README_RU.md))
+# Liskov Substitution Principle (LSP) ([RU](./RU/README.md))
 
 The Liskov Substitution Principle (LSP) states that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program. This means that any subclass should be able to substitute its parent class without causing errors or unexpected behavior.
 

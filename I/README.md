@@ -1,4 +1,4 @@
-# Interface Segregation Principle (ISP) ([RU](./README_RU.md))
+# Interface Segregation Principle (ISP) ([RU](./RU/README.md))
 
 The Interface Segregation Principle (ISP) states that clients should not be forced to depend on interfaces they do not use. This means that interfaces should be designed in such a way that clients only need to know about the methods that are relevant to them.
 

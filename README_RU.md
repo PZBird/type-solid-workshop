@@ -1,12 +1,12 @@
-# SOLID принципы: Введение ([EN](./README.md))
+# SOLID принципы: Введение ([EN](../README.md))
 
 SOLID принципы - это набор принципов дизайна кода, который помогает разработчикам создать поддерживаемое и расширяемое приложение. Эти принципы были представлены Робертом С. Мартином (также известным как Дядя Боб) в начале 2000х и с тех пор стали краеугольным камнем современной разработки программного обеспечения.
 
 Вот пять принцыпов SOLID:
-- [Single Responsibility Principle (SRP)](./S/README_RU.md) - Принцип единственной ответственности
-- [Open-Closed Principle (OCP)](./O/README_RU.md) - Принцип открытости-закрытости
-- [Liskov Substitution Principle (LSP)](./L/README_RU.md) - Принцип подстановки Барбары Лисков
-- [Interface Segregation Principle (ISP)](./I/README_RU.md) - Принцип разделения интерфейсов
-- [Dependency Inversion Principle (DIP)](./D/README_RU.md) - Принцип инверсии зависимостей
+- [Single Responsibility Principle (SRP)](./S/RU/README.md) - Принцип единственной ответственности
+- [Open-Closed Principle (OCP)](./O/RU/README.md) - Принцип открытости-закрытости
+- [Liskov Substitution Principle (LSP)](./L/RU/README.md) - Принцип подстановки Барбары Лисков
+- [Interface Segregation Principle (ISP)](./I/RU/README.md) - Принцип разделения интерфейсов
+- [Dependency Inversion Principle (DIP)](./D/RU/README.md) - Принцип инверсии зависимостей
 
 Каждый принцип касается определенного аспекта разработки программного обеспечения и при правильном применении может привести к созданию более надежного и гибкого кода.

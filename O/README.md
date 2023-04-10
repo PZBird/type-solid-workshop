@@ -1,4 +1,4 @@
-# Open-Closed Principle (OCP) ([RU](./README_RU.md))
+# Open-Closed Principle (OCP) ([RU](./RU/README.md))
 
 The Open-Closed Principle (OCP) states that software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. This means that we should be able to add new functionality without changing existing code.
 
