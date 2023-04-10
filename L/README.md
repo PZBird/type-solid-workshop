@@ -1,4 +1,4 @@
-# Liskov Substitution Principle (LSP)
+# Liskov Substitution Principle (LSP) ([RU](./README_RU.md))
 
 The Liskov Substitution Principle (LSP) states that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program. This means that any subclass should be able to substitute its parent class without causing errors or unexpected behavior.
 
@@ -96,3 +96,5 @@ printArea(square); // Output: 16
 ```
 
 In this refactored code, we have used the Liskov Substitution Principle by making the `Rectangle` and `Square` classes implement the `Shape` interface and ensuring that they behave correctly when passed to the `printArea` function. This makes our code more maintainable and flexible, because we can easily add new shapes that implement the `Shape` interface without modifying the existing code.
+
+[Main](../README.md) | [Previous](../O/README.md) | [Next](../I/README.md)

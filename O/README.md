@@ -1,10 +1,10 @@
-# Open-Closed Principle (OCP)
+# Open-Closed Principle (OCP) ([RU](./README_RU.md))
 
 The Open-Closed Principle (OCP) states that software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. This means that we should be able to add new functionality without changing existing code.
 
 By adhering to OCP, developers can create code that is more flexible and easier to maintain. It also allows for better code reuse and promotes the use of interfaces and abstraction to achieve this goal.
 
-Suppose we have an Order class that calculates the total price of an order based on a list of products and their prices:
+Suppose we have an `Order` class that calculates the total price of an order based on a list of products and their prices:
 
 ```typescript
 class Order {
@@ -20,7 +20,7 @@ class Order {
 }
 ```
 
-Now suppose we want to offer a discount on orders that contain more than 3 products. If we simply add the discount calculation to the Order class, we will be violating the OCP because we will be modifying an existing class instead of extending it:
+Now suppose we want to offer a discount on orders that contain more than 3 products. If we simply add the discount calculation to the `Order` class, we will be violating the OCP because we will be modifying an existing class instead of extending it:
 
 ```typescript
 class Order {
@@ -42,7 +42,7 @@ class Order {
 }
 ```
 
-To refactor this code to follow the OCP, we can create a new class DiscountedOrder that extends the Order class and adds the discount calculation:
+To refactor this code to follow the OCP, we can create a new class `DiscountedOrder` that extends the `Order` class and adds the discount calculation:
 
 ```typescript
 class Order {
@@ -76,3 +76,5 @@ class DiscountedOrder extends Order {
 ```
 
 In this refactored code, we have extended the `Order` class with a new `DiscountedOrder` class that adds the discount calculation without modifying the existing `Order` class. This follows the OCP of SOLID principles because we have extended the behavior of the `Order` class without modifying it, which makes our code more flexible and easier to maintain.
+
+[Main](../README.md) | [Previous](../S/README.md) | [Next](../L/README.md)
