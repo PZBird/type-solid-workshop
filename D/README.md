@@ -1,4 +1,4 @@
-# Dependency Inversion Principle (DIP)
+# Dependency Inversion Principle (DIP) ([RU](./README_RU.md))
 
 The Dependency Inversion Principle (DIP) states that high-level modules should not depend on low-level modules. Instead, both should depend on abstractions. This means that the details of implementation should be hidden behind an interface or abstract class.
 
@@ -68,3 +68,5 @@ const shoppingCartService = new ShoppingCartService(paymentService);
 ```
 
 In this code, we create an instance of the `PaymentService` class and pass it to the constructor of the `ShoppingCartService` class. This way, we can easily swap out the `PaymentService` instance with a different implementation, without modifying the `ShoppingCartService` class.
+
+[Main](../README.md) | [Previous](../I/README.md)

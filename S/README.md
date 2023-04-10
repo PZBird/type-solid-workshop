@@ -1,4 +1,4 @@
-# Single Responsibility Principle (SRP)
+# Single Responsibility Principle (SRP) ([RU](./README_RU.md))
 
 The Single Responsibility Principle (SRP) states that a class should have only one reason to change. This means that a class should have only one responsibility or job to do. If a class has multiple responsibilities, it becomes difficult to maintain and modify the code.
 

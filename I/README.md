@@ -1,4 +1,4 @@
-# Interface Segregation Principle (ISP)
+# Interface Segregation Principle (ISP) ([RU](./README_RU.md))
 
 The Interface Segregation Principle (ISP) states that clients should not be forced to depend on interfaces they do not use. This means that interfaces should be designed in such a way that clients only need to know about the methods that are relevant to them.
 
@@ -119,3 +119,5 @@ class HRManager implements Employee, TimeOffApprove {
 ```
 
 In this refactored code, we have used the Interface Segregation Principle by separating the large `Employee` interface into smaller, more focused interfaces. This makes our code more maintainable and flexible, because we can easily add new classes that implement only the interfaces that are relevant to their job, without modifying the existing code.
+
+[Main](../README.md) | [Previous](../L/README.md) | [Next](../D/README.md)
