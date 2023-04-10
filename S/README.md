@@ -66,4 +66,4 @@ class UserManager {
 
 In this refactored code, the `User` class only has the responsibility of representing a user. The `UserRepository` class has the responsibility of saving and deleting users from the database, and the `EmailSender` class has the responsibility of sending emails to users. The `UserManager` class has the responsibility of managing users, and it delegates the responsibilities of saving users to the `UserRepository` class and sending emails to the `EmailSender` class. This way, each class has a single responsibility and the code is easier to maintain and extend.
 
-[Main](../README_RU.md) | [Next](../O/README.md)
+[Main](../README.md) | [Next](../O/README.md)
